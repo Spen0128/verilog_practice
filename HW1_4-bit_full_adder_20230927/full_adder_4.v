@@ -1,4 +1,4 @@
-/*This is an 1-bit full adder*/
+//This is an 4-bit full adder
 
 module full_adder_4(input [3:0] in_1, in_2, output [3:0] s, output cout);
 
@@ -12,6 +12,7 @@ module full_adder_4(input [3:0] in_1, in_2, output [3:0] s, output cout);
 endmodule
 
 
+//This is an 4-bit full adder
 module full_adder(input A, B, Cin, output S, Cout);
 
     assign {Cout, S} = A + B + Cin;
